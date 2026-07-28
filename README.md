@@ -3,10 +3,10 @@
 Backend API for managing student records. Built as an assignment using Node.js, Express, and MongoDB.
 
 ## Tech Stack
-- *Runtime*: Node.js
-- *Framework*: Express.js
-- *Database*: MongoDB + Mongoose
-- *Other*: dotenv, cors
+- Runtime: Node.js
+- Framework: Express.js
+- Database: MongoDB + Mongoose
+- Other: dotenv, cors
 
 ## Installation
 
