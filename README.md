@@ -1,2 +1,17 @@
-# Project-2-Backend-Decodelaps-Project.-
-Backend API for Task Management System - Node.js + Express + MongoDB
+# Project 2 Backend API
+
+## Install
+npm install
+
+## Run
+npm start
+
+GET /
+GET /students
+POST /students
+
+POST body:
+{
+ "name":"Andreas",
+ "age":22
+}
