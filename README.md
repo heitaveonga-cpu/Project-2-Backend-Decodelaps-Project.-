@@ -1,6 +1,6 @@
-# Student Management API
+# Task Management API
 
-Backend API for managing student records. Built as an assignment using Node.js, Express, and MongoDB.
+Backend API for managing task. Built as an assignment using Node.js, Express, and MongoDB.
 
 ## Tech Stack
 - Runtime: Node.js
@@ -26,12 +26,12 @@ Server runs on: http://localhost:5000
    | Method | Endpoint | Description |
    | --- | --- | --- |
    | GET | / | Test route |
-   | GET | /students | Get all students |
-   | POST | /students | Create new student |
+   | GET | /task | Get all students |
+   | POST | /task | Create new student |
 
    ### Example POST body:
    ```json
    {
-     "name": "Andreas",
-     "age": 22
+     "title": "Finish assignment",
+     "completed": false
    }
